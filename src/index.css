@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body{
+  background-color: #131722;
+  color: white !important;
+  font-family: 'Cairo', sans-serif;
+
+}
+input{
+  background-color: transparent !important;
+  color: white !important;
+}
+.upper , .lower{
+  width: 25%;
+  margin-bottom: 30px;
+  height: 3px;
+  background-color: gray;
+}
+.lower{
+  width: 90%;
+}
+.movie h6 , .movie h6:hover {
+  color: white !important;
+  
+}
+a{
+  text-decoration: none !important;
+  color: rgb(255, 255, 255 , 0.55) ;
+}
+.Logout{
+cursor: pointer;
+}
+.userinfo{
+  background-color: rgb(158, 7, 7) !important;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 7px  0px 5px 10px;
+  font-size: 15px !important;
+}
+i{
+  font-size: 20px;
+}
+
+
+.upper, .lower {
+  width: 25%;
+  height: 3px;
+  margin-bottom: 30px;
+  background-color: gray;
+}
+
+.lower {
+  width: 90%;
+}
+
+.movie p, .Tv p, .movie p:hover, .Tv p:hover {
+  color: white !important;
+}
+
+a {
+  /* color: rgb(255, 255, 255 , 0.55) !important; */
+  text-decoration: none !important;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.underLine {
+  position: relative;
+}
+
+.underLine:hover:before {
+  visibility: visible;
+  width: 60%;
+}
+
+.underLine::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 3px;
+  left: 10px;
+  width: 0%;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+/* ///////(Profile_image)////// */
+.Profile_image{
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.layer:hover {
+  transition-duration: 1s;
+  opacity: 1;
+}
